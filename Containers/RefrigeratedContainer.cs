@@ -8,7 +8,7 @@ public class RefrigeratedContainer : Container
         double height,
         double depth,
         double tareWeight,
-        double maxPayload, 
+        double maxPayload,
         ProductType productType,
         double maintainedTemperature
     )
@@ -29,6 +29,13 @@ public class RefrigeratedContainer : Container
             throw new ArgumentException("Invalid temperature for the provided product type");
         }
     }
-    public ProductType ProductType { get;}
+
+    public ProductType ProductType { get; }
     public double MaintainedTemperature { get; }
+
+    public override void PrintInfo()
+    {
+        base.PrintInfo();
+        Console.WriteLine($"Maintained Temperature: {MaintainedTemperature}°C, Product Type: {ProductType}");
+    }
 }

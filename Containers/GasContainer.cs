@@ -21,4 +21,10 @@ public class GasContainer : HazardousContainer
     public double Pressure { get; }
 
     public override void EmptyCargo() => CargoMass *= 0.05;
+    public override void PrintInfo()
+    {
+        base.PrintInfo();
+        Console.WriteLine($"Pressure: {Pressure} atm");
+    }
+
 }

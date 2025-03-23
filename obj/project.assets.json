@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Ali Emir\\.nuget\\packages\\": {}
+    "C:\\Users\\aliem\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ali Emir\\Desktop\\APDB\\HW\\Task1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\aliem\\Desktop\\APBD\\Container\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Users\\Ali Emir\\Desktop\\APDB\\HW\\Task1\\ConsoleApp1\\ConsoleApp1.csproj",
-      "packagesPath": "C:\\Users\\Ali Emir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ali Emir\\Desktop\\APDB\\HW\\Task1\\ConsoleApp1\\obj\\",
+      "projectPath": "C:\\Users\\aliem\\Desktop\\APBD\\Container\\ConsoleApp1.csproj",
+      "packagesPath": "C:\\Users\\aliem\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aliem\\Desktop\\APBD\\Container\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Ali Emir\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\aliem\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\Ali Emir\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\aliem\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -36,4 +36,7 @@ public class Container
     
     public virtual void EmptyCargo() => CargoMass = 0;
     protected virtual bool CanLoadCargo(double mass) => CargoMass + mass <= MaxPayload;
+    public virtual void PrintInfo() => 
+        Console.WriteLine($"Container Serial: {SerialNumber},Height: {Height},Depth: {Depth},Tare Weight: {TareWeight},Max Payload: {MaxPayload}");
+
 }

@@ -24,4 +24,10 @@ public class LiquidContainer : HazardousContainer
     public bool IsCargoHazardous { get; }
     
     protected override bool CanLoadCargo(double mass) => CargoMass + mass <= _allowedMaxPayload;
+    public override void PrintInfo()
+    {
+        base.PrintInfo();
+        Console.WriteLine("This is a hazardous container.");
+    }
+
 }
